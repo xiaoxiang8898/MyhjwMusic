@@ -1,0 +1,3 @@
+/Users/han/Myfolder/My_AS_Project/mymusic/app/.externalNativeBuild/cmake/debug/mips/CMakeFiles/edit_cache.dir
+/Users/han/Myfolder/My_AS_Project/mymusic/app/.externalNativeBuild/cmake/debug/mips/CMakeFiles/rebuild_cache.dir
+/Users/han/Myfolder/My_AS_Project/mymusic/app/.externalNativeBuild/cmake/debug/mips/CMakeFiles/native-lib.dir

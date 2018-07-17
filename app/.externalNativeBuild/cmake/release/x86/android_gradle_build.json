@@ -1,0 +1,38 @@
+
+{
+	"buildFiles" : [ "/Users/han/Myfolder/My_AS_Project/mymusic/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/Users/han/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/han/Myfolder/My_AS_Project/mymusic/app/.externalNativeBuild/cmake/release/x86 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"native-lib-Release-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "native-lib",
+			"buildCommand" : "/Users/han/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/han/Myfolder/My_AS_Project/mymusic/app/.externalNativeBuild/cmake/release/x86 --target native-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/han/AndroidTools/android-ndk-r14b/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/han/AndroidTools/android-ndk-r14b/platforms/android-15/arch-x86  -Dnative_lib_EXPORTS -isystem /Users/han/AndroidTools/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/han/AndroidTools/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /Users/han/AndroidTools/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -frtti -fexceptions -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/han/Myfolder/My_AS_Project/mymusic/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/Users/han/Myfolder/My_AS_Project/mymusic/app/.externalNativeBuild/cmake/release/x86"
+				}
+			],
+			"output" : "/Users/han/Myfolder/My_AS_Project/mymusic/app/build/intermediates/cmake/release/obj/x86/libnative-lib.so",
+			"toolchain" : "5350018412194310488"
+		}
+	},
+	"toolchains" : 
+	{
+		"5350018412194310488" : 
+		{
+			"cCompilerExecutable" : "/Users/han/AndroidTools/android-ndk-r14b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/han/AndroidTools/android-ndk-r14b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

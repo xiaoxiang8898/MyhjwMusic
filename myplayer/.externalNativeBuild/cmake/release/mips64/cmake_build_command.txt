@@ -1,0 +1,15 @@
+Executable : /Users/han/Library/Android/sdk/cmake/3.6.4111459/bin/cmake
+arguments : 
+-H/Users/han/Myfolder/My_AS_Project/mymusic/myplayer
+-B/Users/han/Myfolder/My_AS_Project/mymusic/myplayer/.externalNativeBuild/cmake/release/mips64
+-DANDROID_ABI=mips64
+-DANDROID_PLATFORM=android-21
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/han/Myfolder/My_AS_Project/mymusic/myplayer/build/intermediates/cmake/release/obj/mips64
+-DCMAKE_BUILD_TYPE=Release
+-DANDROID_NDK=/Users/han/AndroidTools/android-ndk-r14b
+-DCMAKE_CXX_FLAGS=-frtti -fexceptions
+-DCMAKE_TOOLCHAIN_FILE=/Users/han/AndroidTools/android-ndk-r14b/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/Users/han/Library/Android/sdk/cmake/3.6.4111459/bin/ninja
+-GAndroid Gradle - Ninja
+jvmArgs : 
+
